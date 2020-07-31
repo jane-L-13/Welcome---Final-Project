@@ -16,54 +16,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create your own emoji!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzG-tj-tFd">
-                                <rect key="frame" x="70" y="116" width="303" height="33.5"/>
+                                <rect key="frame" x="70" y="91.5" width="303" height="33.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmk-vn-wIe">
-                                <rect key="frame" x="59" y="637" width="82" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmk-vn-wIe">
+                                <rect key="frame" x="100" y="688" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT9-UA-2XY">
-                                <rect key="frame" x="315" y="637" width="58" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT9-UA-2XY">
+                                <rect key="frame" x="312" y="688" width="30" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86361457210000003" green="0.71248052930000005" blue="0.96930998560000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8uC-cU-Qsp">
-                                <rect key="frame" x="87" y="262" width="240" height="132"/>
-                                <color key="tintColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-Sy-uXl">
-                                <rect key="frame" x="180" y="637" width="82" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-Sy-uXl">
+                                <rect key="frame" x="206" y="688" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.58267769483855969" blue="0.80889995112544255" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uC-cU-Qsp">
+                                <rect key="frame" x="102" y="355.5" width="210" height="132"/>
+                                <color key="tintColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="134.5" id="MrE-bJ-aKy"/>
+                                    <constraint firstAttribute="width" constant="210" id="ThG-WN-Xjo"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font">
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                </preferredSymbolConfiguration>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="YMk-cK-doh" firstAttribute="trailing" secondItem="HT9-UA-2XY" secondAttribute="trailing" constant="69" id="3kp-HP-8LA"/>
-                            <constraint firstItem="RzG-tj-tFd" firstAttribute="top" secondItem="YMk-cK-doh" secondAttribute="top" constant="116" id="Csd-Vx-ce0"/>
+                            <constraint firstItem="RzG-tj-tFd" firstAttribute="top" secondItem="YMk-cK-doh" secondAttribute="top" constant="91.5" id="FZj-A6-0Cg"/>
                             <constraint firstItem="RzG-tj-tFd" firstAttribute="leading" secondItem="YMk-cK-doh" secondAttribute="leading" constant="70" id="Fi9-eD-x0m"/>
-                            <constraint firstItem="YMk-cK-doh" firstAttribute="bottom" secondItem="gdn-Sy-uXl" secondAttribute="bottom" constant="141" id="Fnc-qU-e54"/>
-                            <constraint firstItem="YMk-cK-doh" firstAttribute="bottom" secondItem="Xmk-vn-wIe" secondAttribute="bottom" constant="141" id="MlG-rR-cNZ"/>
-                            <constraint firstItem="8uC-cU-Qsp" firstAttribute="top" secondItem="RzG-tj-tFd" secondAttribute="bottom" constant="111" id="T3j-cZ-Mhh"/>
-                            <constraint firstItem="YMk-cK-doh" firstAttribute="trailing" secondItem="8uC-cU-Qsp" secondAttribute="trailing" constant="87" id="Z67-Wh-2oC"/>
-                            <constraint firstItem="gdn-Sy-uXl" firstAttribute="top" secondItem="8uC-cU-Qsp" secondAttribute="bottom" constant="242" id="ehp-TP-rbK"/>
-                            <constraint firstItem="HT9-UA-2XY" firstAttribute="leading" secondItem="gdn-Sy-uXl" secondAttribute="trailing" constant="53" id="f8i-By-BrR"/>
+                            <constraint firstItem="8uC-cU-Qsp" firstAttribute="centerX" secondItem="uwb-7i-wkn" secondAttribute="centerX" id="Mxu-3L-mFQ"/>
                             <constraint firstItem="YMk-cK-doh" firstAttribute="trailing" secondItem="RzG-tj-tFd" secondAttribute="trailing" constant="41" id="gCp-s3-J0i"/>
-                            <constraint firstItem="8uC-cU-Qsp" firstAttribute="leading" secondItem="YMk-cK-doh" secondAttribute="leading" constant="87" id="hW6-jB-S0M"/>
-                            <constraint firstItem="YMk-cK-doh" firstAttribute="bottom" secondItem="HT9-UA-2XY" secondAttribute="bottom" constant="141" id="nUa-0B-UUF"/>
-                            <constraint firstItem="Xmk-vn-wIe" firstAttribute="leading" secondItem="YMk-cK-doh" secondAttribute="leading" constant="59" id="rvM-fN-aw5"/>
-                            <constraint firstItem="gdn-Sy-uXl" firstAttribute="leading" secondItem="Xmk-vn-wIe" secondAttribute="trailing" constant="39" id="slQ-b4-Vzr"/>
+                            <constraint firstItem="8uC-cU-Qsp" firstAttribute="centerY" secondItem="uwb-7i-wkn" secondAttribute="centerY" id="hp3-1U-7Ub"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YMk-cK-doh"/>
                     </view>
@@ -797,7 +798,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gl-kJ-qxw">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gl-kJ-qxw">
                                 <rect key="frame" x="78" y="231" width="272" height="41"/>
                                 <color key="backgroundColor" red="0.88656228619999999" green="0.82333821529999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="25"/>
@@ -808,7 +809,7 @@
                                     <segue destination="aFC-bx-cb7" kind="presentation" id="zMw-y6-KWK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DR1-zD-YY6">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DR1-zD-YY6">
                                 <rect key="frame" x="135" y="420" width="145" height="42"/>
                                 <color key="backgroundColor" red="0.88656228619999999" green="0.82333821529999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="26"/>
@@ -819,16 +820,16 @@
                                     <segue destination="ET8-Rb-B60" kind="show" id="w1q-Yv-awT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On a sunny day, what would you do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2h-HT-N8L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="On a sunny day, what would you do?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2h-HT-N8L">
                                 <rect key="frame" x="70" y="97" width="275" height="67"/>
                                 <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1an-jy-69p">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1an-jy-69p">
                                 <rect key="frame" x="134" y="580" width="147" height="42"/>
                                 <color key="backgroundColor" red="0.88656228619999999" green="0.82333821529999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="27"/>
                                 <state key="normal" title="Take a walk">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
