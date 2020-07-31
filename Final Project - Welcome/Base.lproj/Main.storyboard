@@ -368,12 +368,12 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ya-iC-aNN">
-                                <rect key="frame" x="266" y="323" width="73" height="75"/>
+                                <rect key="frame" x="266" y="450" width="73" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Listen to some music playlists" image="2111624"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Listen to some music" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgk-DF-pNm">
-                                <rect key="frame" x="256" y="406" width="92" height="34"/>
+                                <rect key="frame" x="256" y="542" width="92" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
@@ -389,10 +389,10 @@
             </objects>
             <point key="canvasLocation" x="978.26086956521749" y="1525.4464285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Putenergytogooduse View Controller-->
         <scene sceneID="n3P-ar-Cbo">
             <objects>
-                <viewController id="uds-6B-CTf" sceneMemberID="viewController">
+                <viewController id="uds-6B-CTf" customClass="PutenergytogooduseViewController" customModule="Final_Project___Welcome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D4J-sx-qy4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,6 +406,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="goOutside:" destination="uds-6B-CTf" eventType="touchUpInside" id="MpD-5W-L7M"/>
                                     <segue destination="LcE-0v-CDP" kind="show" id="mD9-0n-8oi"/>
                                 </connections>
                             </button>
@@ -416,6 +417,9 @@
                                 <state key="normal" title="play a minigame 🙃">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="flappybirddd:" destination="uds-6B-CTf" eventType="touchUpInside" id="UXK-S8-sKi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's put your energy to good use :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33r-Wy-0cj">
                                 <rect key="frame" x="29" y="73" width="358" height="47"/>
@@ -431,6 +435,9 @@
                                 <state key="normal" title="Do a short 10 minute workout! 🏋️‍♀️">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="ChloeTing:" destination="uds-6B-CTf" eventType="touchUpInside" id="7ff-ho-acB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -545,10 +552,10 @@
             </objects>
             <point key="canvasLocation" x="1486.9565217391305" y="-1259.5982142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Why Arent You Asleep View Controller-->
         <scene sceneID="tyb-OL-60t">
             <objects>
-                <viewController id="bZg-n9-jZR" sceneMemberID="viewController">
+                <viewController id="bZg-n9-jZR" customClass="whyArentYouAsleepViewController" customModule="Final_Project___Welcome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Irq-xH-kVd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -557,6 +564,9 @@
                                 <rect key="frame" x="144" y="551" width="127" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="whitenoise:" destination="bZg-n9-jZR" eventType="touchUpInside" id="lk7-KF-94w"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calming Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnJ-4a-znq">
                                 <rect key="frame" x="120" y="274" width="174" height="43"/>
@@ -576,6 +586,9 @@
                                 <rect key="frame" x="137" y="325" width="141" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="calmingmusic:" destination="bZg-n9-jZR" eventType="touchUpInside" id="3n1-yq-RYJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why aren't you asleep by now??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AQ-b7-xt6">
                                 <rect key="frame" x="20" y="125" width="374" height="111"/>
@@ -712,10 +725,10 @@
             </objects>
             <point key="canvasLocation" x="2012" y="-556"/>
         </scene>
-        <!--View Controller-->
+        <!--Summer Party Mood View Controller-->
         <scene sceneID="8OK-2v-JLs">
             <objects>
-                <viewController id="aFC-bx-cb7" sceneMemberID="viewController">
+                <viewController id="aFC-bx-cb7" customClass="summerPartyMoodViewController" customModule="Final_Project___Welcome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fkY-yK-Jhl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -743,9 +756,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="carJams:" destination="cFA-N6-35j" eventType="touchUpInside" id="P8P-7U-elY"/>
-                                    <action selector="carjams:" destination="cFA-N6-35j" eventType="touchUpInside" id="op3-mG-I06"/>
-                                    <action selector="carjamssummerparty:" destination="cFA-N6-35j" eventType="touchUpInside" id="oIh-0K-gqj"/>
+                                    <action selector="Carjams:" destination="aFC-bx-cb7" eventType="touchUpInside" id="hJD-9B-eAQ"/>
+                                    <action selector="carJams:" destination="cFA-N6-35j" eventType="touchUpInside" id="UhE-Hj-LM8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8B-v7-tce">
@@ -757,6 +769,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="Instapics:" destination="aFC-bx-cb7" eventType="touchUpInside" id="xIX-aP-2A9"/>
                                     <action selector="cuteInstaPicIdeas:" destination="cFA-N6-35j" eventType="touchUpInside" id="g5w-1j-BZe"/>
                                 </connections>
                             </button>
@@ -776,7 +789,7 @@
         <segue reference="w1q-Yv-awT"/>
         <segue reference="6mj-bP-qz5"/>
         <segue reference="Uyu-4M-E6q"/>
-        <segue reference="Kr0-D4-Yd0"/>
+        <segue reference="mD9-0n-8oi"/>
         <segue reference="zkc-0V-d3y"/>
     </inferredMetricsTieBreakers>
     <resources>

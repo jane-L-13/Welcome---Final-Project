@@ -1,38 +1,32 @@
 //
-//  summerPartyMoodViewController.swift
+//  whyArentYouAsleepViewController.swift
 //  Final Project - Welcome
 //
-//  Created by Valerie Kuo on 7/30/20.
+//  Created by Valerie Kuo on 7/31/20.
 //  Copyright © 2020 JANE LEE. All rights reserved.
 //
 
 import UIKit
 
-class summerPartyMoodViewController: UIViewController {
+class whyArentYouAsleepViewController: UIViewController {
+    @IBAction func calmingmusic(_ sender: UIButton) {
+        if let url = URL(string: "https://open.spotify.com/playlist/3UDEobtNy4Kt52QY52KKdA") {
+                UIApplication.shared.open(url)}
 
-    
-    @IBAction func Carjams(_ sender: UIButton) {
-      if let url = URL(string: "https://open.spotify.com/playlist/37i9dQZF1DWWMOmoXKqHTD") {
-          UIApplication.shared.open(url)
-      }
     }
     
-    @IBAction func Instapics(_ sender: UIButton) {
-        if let url = URL(string: "https://www.pinterest.com/TheContentBug/instagram-picture-ideas/") {
-                 UIApplication.shared.open(url)
-             }
-    }
+    @IBAction func whitenoise(_ sender: UIButton) {
+    if let url = URL(string: "https://open.spotify.com/album/2wusDXAq2tU66LL4M9JYzp") {
+            UIApplication.shared.open(url)
+        }
 
-    
+
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
-        
-        
         // Do any additional setup after loading the view.
     }
     
