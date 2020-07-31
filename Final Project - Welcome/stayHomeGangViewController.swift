@@ -11,9 +11,12 @@ import UIKit
 class stayHomeGangViewController: UIViewController {
 
     @IBAction func shgWatchYoutube(_ sender: UIButton) {
-        
-        UIApplication.shared.open(URL(string: "http://www.youtube.com")! as URL, options: [:], completionHandler: nil)
+       
+
+        UIApplication.shared.open(URL(string: "https://www.youtube.com")! as URL, options: [:], completionHandler: nil)
     }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
