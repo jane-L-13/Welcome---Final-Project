@@ -10,22 +10,29 @@ import UIKit
 
 class stayHomeGangViewController: UIViewController {
 
-    @IBAction func shgWatchYoutube(_ sender: UIButton) {
-       
-
-        UIApplication.shared.open(URL(string: "https://www.youtube.com")! as URL, options: [:], completionHandler: nil)
-    }
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
     
+    @IBAction func watchYoutube(_ sender: UIButton) {
+        if let url = URL(string: "https://www.youtube.com") {
+        UIApplication.shared.open(url)
     }
+        }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      
+    @IBAction func startATvShow(_ sender: UIButton) {
+        if let url = URL(string: "https://www.netflix.com") {
+            UIApplication.shared.open(url)
+        }
     }
-
+    
+    @IBAction func readABook(_ sender: UIButton) {
+        if let url = URL(string: "https://www.goodreads.com") {
+            UIApplication.shared.open(url)
+        }
+    }
+    
+    
+    
 
 }

@@ -16,6 +16,7 @@
 		18292E0024D0C1D500562ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18292DFE24D0C1D500562ECB /* LaunchScreen.storyboard */; };
 		18292E0B24D0C1D500562ECB /* Final_Project___WelcomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18292E0A24D0C1D500562ECB /* Final_Project___WelcomeTests.swift */; };
 		18292E1624D0C1D500562ECB /* Final_Project___WelcomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18292E1524D0C1D500562ECB /* Final_Project___WelcomeUITests.swift */; };
+		BE8043E924D3F64B00C9049A /* summerPartyMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8043E824D3F64B00C9049A /* summerPartyMoodViewController.swift */; };
 		BEF8AB2A24D3DB2200510F39 /* stayHomeGangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8AB2924D3DB2200510F39 /* stayHomeGangViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		18292E1124D0C1D500562ECB /* Final Project - WelcomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project - WelcomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18292E1524D0C1D500562ECB /* Final_Project___WelcomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Final_Project___WelcomeUITests.swift"; sourceTree = "<group>"; };
 		18292E1724D0C1D500562ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8043E824D3F64B00C9049A /* summerPartyMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summerPartyMoodViewController.swift; sourceTree = "<group>"; };
 		BEF8AB2924D3DB2200510F39 /* stayHomeGangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stayHomeGangViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				18292DF424D0C1D400562ECB /* ViewController.swift */,
 				18292DF624D0C1D400562ECB /* Main.storyboard */,
 				BEF8AB2924D3DB2200510F39 /* stayHomeGangViewController.swift */,
+				BE8043E824D3F64B00C9049A /* summerPartyMoodViewController.swift */,
 				18292DFC24D0C1D500562ECB /* Assets.xcassets */,
 				18292DFE24D0C1D500562ECB /* LaunchScreen.storyboard */,
 				18292E0124D0C1D500562ECB /* Info.plist */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18292DF524D0C1D400562ECB /* ViewController.swift in Sources */,
+				BE8043E924D3F64B00C9049A /* summerPartyMoodViewController.swift in Sources */,
 				18292DFB24D0C1D400562ECB /* Final_Project___Welcome.xcdatamodeld in Sources */,
 				18292DF124D0C1D400562ECB /* AppDelegate.swift in Sources */,
 				18292DF324D0C1D400562ECB /* SceneDelegate.swift in Sources */,
