@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0DC0DFD4-071B-40C8-BC45-F39F7A962E25"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project - Welcome/stayHomeGangViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "stayHomeGangViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5 - ca262a9751dddd99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project___Welcome.stayHomeGangViewController.__deallocating_deinit"
+                  moduleName = "Final Project - Welcome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valeriekuo/Documents/Welcome---Final-Project/Final%20Project%20-%20Welcome/stayHomeGangViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5 - 51f7304078d89781"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project___Welcome.stayHomeGangViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Final_Project___Welcome.stayHomeGangViewController"
+                  moduleName = "Final Project - Welcome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valeriekuo/Documents/Welcome---Final-Project/Final%20Project%20-%20Welcome/stayHomeGangViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5 - 1546044990069b7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project___Welcome.stayHomeGangViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Final_Project___Welcome.stayHomeGangViewController"
+                  moduleName = "Final Project - Welcome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valeriekuo/Documents/Welcome---Final-Project/Final%20Project%20-%20Welcome/stayHomeGangViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "389">
+               </Location>
+               <Location
+                  uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5 - 8e0d10068acb3536"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project___Welcome.stayHomeGangViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Final_Project___Welcome.stayHomeGangViewController&gt;"
+                  moduleName = "Final Project - Welcome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valeriekuo/Documents/Welcome---Final-Project/Final%20Project%20-%20Welcome/stayHomeGangViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "31B64B2E-2A12-4329-9F0E-4E28E1E45AD5 - 7d5128e32c44b023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project___Welcome.stayHomeGangViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Final_Project___Welcome.stayHomeGangViewController&gt;"
+                  moduleName = "Final Project - Welcome"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valeriekuo/Documents/Welcome---Final-Project/Final%20Project%20-%20Welcome/stayHomeGangViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "239">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B68929B-F35A-4D8B-8603-2BCF672DA5C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project - Welcome/stayHomeGangViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D665EDC-FCC8-4E78-B921-4470CA9E58A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final Project - Welcome/stayHomeGangViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
