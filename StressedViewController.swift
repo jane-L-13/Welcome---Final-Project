@@ -1,5 +1,5 @@
 //
-//  ExploringViewController.swift
+//  StressedViewController.swift
 //  Final Project - Welcome
 //
 //  Created by Valerie Kuo on 7/31/20.
@@ -8,23 +8,21 @@
 
 import UIKit
 
-class ExploringViewController: UIViewController {
-    
-    @IBAction func Hiking(_ sender: UIButton) {
-        if let url = URL(string: "https://www.nps.gov/state/ca/index.htm") {
+class StressedViewController: UIViewController {
+
+    @IBAction func writing(_ sender: UIButton) {
+        if let url = URL(string: "https://blankslate.io") {
             UIApplication.shared.open(url)
         }
+    }
 
+    
+    @IBAction func randomcall(_ sender: UIButton) {
+           if let url = URL(string: "https://teenhealthandwellness.com/static/hotlines") {
+                      UIApplication.shared.open(url)
+                  }
     }
     
-    
-    @IBAction func tophits(_ sender: UIButton) {
-        
-        if let url = URL(string: "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M?si=p9BBnR5_T8eO55Zd2hZbWw") {
-            UIApplication.shared.open(url)
-        }
-
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

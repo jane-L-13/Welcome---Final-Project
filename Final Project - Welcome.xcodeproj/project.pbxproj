@@ -20,6 +20,7 @@
 		BE8043EB24D3FAE000C9049A /* whyArentYouAsleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8043EA24D3FAE000C9049A /* whyArentYouAsleepViewController.swift */; };
 		BE8043ED24D3FC1A00C9049A /* PutenergytogooduseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8043EC24D3FC1A00C9049A /* PutenergytogooduseViewController.swift */; };
 		BE8043EF24D3FD2200C9049A /* ExploringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8043EE24D3FD2200C9049A /* ExploringViewController.swift */; };
+		BE8043F124D3FE4100C9049A /* StressedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8043F024D3FE4100C9049A /* StressedViewController.swift */; };
 		BEF8AB2A24D3DB2200510F39 /* stayHomeGangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8AB2924D3DB2200510F39 /* stayHomeGangViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		BE8043EA24D3FAE000C9049A /* whyArentYouAsleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whyArentYouAsleepViewController.swift; sourceTree = "<group>"; };
 		BE8043EC24D3FC1A00C9049A /* PutenergytogooduseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutenergytogooduseViewController.swift; sourceTree = "<group>"; };
 		BE8043EE24D3FD2200C9049A /* ExploringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploringViewController.swift; sourceTree = "<group>"; };
+		BE8043F024D3FE4100C9049A /* StressedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressedViewController.swift; sourceTree = "<group>"; };
 		BEF8AB2924D3DB2200510F39 /* stayHomeGangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stayHomeGangViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 		18292DE424D0C1D400562ECB = {
 			isa = PBXGroup;
 			children = (
+				BE8043F024D3FE4100C9049A /* StressedViewController.swift */,
 				18292DEF24D0C1D400562ECB /* Final Project - Welcome */,
 				18292E0924D0C1D500562ECB /* Final Project - WelcomeTests */,
 				18292E1424D0C1D500562ECB /* Final Project - WelcomeUITests */,
@@ -286,6 +289,7 @@
 				18292DF324D0C1D400562ECB /* SceneDelegate.swift in Sources */,
 				BE8043EF24D3FD2200C9049A /* ExploringViewController.swift in Sources */,
 				BEF8AB2A24D3DB2200510F39 /* stayHomeGangViewController.swift in Sources */,
+				BE8043F124D3FE4100C9049A /* StressedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
